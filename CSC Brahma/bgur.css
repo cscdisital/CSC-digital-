@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.profile-container {
+    width: 60%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    width: 100px;
+    border-radius: 50%;
+    background: yellow;
+    padding: 10px;
+}
+
+.email {
+    color: gray;
+}
+
+.update-status {
+    color: red;
+    font-size: 14px;
+}
+
+/* Tabs */
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    border-bottom: 2px solid #ddd;
+}
+
+.tabs button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.tabs .active-tab {
+    border-bottom: 2px solid blue;
+    font-weight: bold;
+}
+
+/* Profile Info */
+.profile-info {
+    margin-top: 20px;
+    text-align: left;
+    padding: 10px;
+}
+
+.profile-info table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.profile-info td {
+    padding: 8px 15px;
+    border-bottom: 1px solid #ddd;
+}
